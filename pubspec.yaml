@@ -1,12 +1,22 @@
-name: HeathenMatch
+name: heathen_match
+description: A Tinder-like app tailored specifically for atheists
+version: 1.0.0
+
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: '>=2.14.0 <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  firebase_core: "^1.10.0"
-  cloud_firestore: "^3.1.0"
-  firebase_auth: "^3.3.0"
-  provider: ^6.0.1
-  flutter_tindercard: ^1.3.3
+  firebase_core: ^1.7.0
+  firebase_auth: ^3.1.0
+  cloud_firestore: ^2.5.4
+  flutter_tindercard: ^1.0.1
+  image_picker: ^0.8.4+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
