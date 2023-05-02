@@ -11,7 +11,7 @@ dependencies:
   firebase_core: ^1.7.0
   firebase_auth: ^3.1.0
   cloud_firestore: ^2.5.4
-  flutter_tindercard: ^1.0.1
+  flutter_tindercard: ^2.1.1
   image_picker: ^0.8.4+4
 
 dev_dependencies:
